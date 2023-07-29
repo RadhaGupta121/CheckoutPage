@@ -1,0 +1,69 @@
+.App {
+ 
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+#imgs{
+margin-left: 12px;
+margin-top: 12px;
+object-fit: cover;
+transition: all ease 1s;
+}
+#imgs:hover{
+  transform: scale(1.1);
+}
+.image_pr{
+  overflow: hidden;
+ 
+}
+.product_img{
+  height:500px;
+  width:400px;
+  background-color: pink;
+  padding: 12px;
+  /* position: relative; */
+  overflow: hidden;
+  transition: all ease 0.5s;
+ 
+}
+.product_img:hover{
+  box-shadow: 10px 22px 10px rgb(240, 82, 108);
+}
+li{
+  list-style: none;
+}
+.pay{
+  
+  height: 400px;
+  width:390px;
+  background-color: green;
+  margin-left: -100px;
+  margin-top: 40px;
+  padding:12px;
+  overflow: hidden;
+  transition: all ease 0.6s;
+}
+.pay:hover{
+  box-shadow: 12px 10px 5px rgb(66, 107, 4);
+}
+button{
+  position: relative;
+   overflow: hidden;
+   color: white;
+   background-color: rgb(239, 40, 239);
+   border-radius: 5px;
+   border: none;
+    height: 39px;
+    width: 90px;
+    padding:12px;
+    font-size: 16px;
+    cursor:pointer;
+    transition: all ease 0.5s;
+  
+}
+button:hover{
+  box-shadow: 10px 10px 0px rgb(34, 31, 33);
+}
+
